@@ -3,18 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6870DDD425F760400001186F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6870DDD325F760400001186F /* AppDelegate.swift */; };
 		6870DDD625F760400001186F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6870DDD525F760400001186F /* SceneDelegate.swift */; };
-		6870DDD825F760400001186F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6870DDD725F760400001186F /* ViewController.swift */; };
+		6870DDD825F760400001186F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6870DDD725F760400001186F /* WelcomeViewController.swift */; };
 		6870DDDB25F760400001186F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6870DDD925F760400001186F /* Main.storyboard */; };
 		6870DDDE25F760400001186F /* Chatify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6870DDDC25F760400001186F /* Chatify.xcdatamodeld */; };
 		6870DDE025F760440001186F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6870DDDF25F760440001186F /* Assets.xcassets */; };
 		6870DDE325F760440001186F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6870DDE125F760440001186F /* LaunchScreen.storyboard */; };
 		6870DDEC25F7605E0001186F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6870DDEB25F7605E0001186F /* GoogleService-Info.plist */; };
+		68D13D6625F78AA400F94F37 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68D13D6525F78AA400F94F37 /* Poppins-Regular.ttf */; };
+		68D13D6A25F799FC00F94F37 /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D13D6925F799FC00F94F37 /* ButtonComponent.swift */; };
+		68D13D7225F7BA3300F94F37 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D13D7125F7BA3300F94F37 /* LoginViewController.swift */; };
+		68EEA27C25F7890A00E0B2AB /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68EEA27B25F7890A00E0B2AB /* Poppins-Light.ttf */; };
 		82F6CC64793BA373AE5212A7 /* Pods_Chatify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2992436BA8BAD82DF76F516 /* Pods_Chatify.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,13 +26,17 @@
 		6870DDD025F760400001186F /* Chatify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6870DDD325F760400001186F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6870DDD525F760400001186F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6870DDD725F760400001186F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6870DDD725F760400001186F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		6870DDDA25F760400001186F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6870DDDD25F760400001186F /* Chatify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chatify.xcdatamodel; sourceTree = "<group>"; };
 		6870DDDF25F760440001186F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6870DDE225F760440001186F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6870DDE425F760440001186F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6870DDEB25F7605E0001186F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		68D13D6525F78AA400F94F37 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		68D13D6925F799FC00F94F37 /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
+		68D13D7125F7BA3300F94F37 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		68EEA27B25F7890A00E0B2AB /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		AD06148D7A504FBB04589406 /* Pods-Chatify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatify.debug.xcconfig"; path = "Target Support Files/Pods-Chatify/Pods-Chatify.debug.xcconfig"; sourceTree = "<group>"; };
 		EA1BF2E8CE613D65F9CEF0C2 /* Pods-Chatify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatify.release.xcconfig"; path = "Target Support Files/Pods-Chatify/Pods-Chatify.release.xcconfig"; sourceTree = "<group>"; };
 		F2992436BA8BAD82DF76F516 /* Pods_Chatify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +60,6 @@
 				AD06148D7A504FBB04589406 /* Pods-Chatify.debug.xcconfig */,
 				EA1BF2E8CE613D65F9CEF0C2 /* Pods-Chatify.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,17 +92,69 @@
 		6870DDD225F760400001186F /* Chatify */ = {
 			isa = PBXGroup;
 			children = (
+				68D13D6825F799DB00F94F37 /* Components */,
+				68EEA27A25F7889600E0B2AB /* fonts */,
+				68EEA27125F773B800E0B2AB /* Models */,
 				6870DDD325F760400001186F /* AppDelegate.swift */,
 				6870DDD525F760400001186F /* SceneDelegate.swift */,
-				6870DDD725F760400001186F /* ViewController.swift */,
-				6870DDD925F760400001186F /* Main.storyboard */,
+				68EEA26D25F7730C00E0B2AB /* Controllers */,
+				68EEA26F25F773A100E0B2AB /* Views */,
 				6870DDDF25F760440001186F /* Assets.xcassets */,
-				6870DDE125F760440001186F /* LaunchScreen.storyboard */,
 				6870DDE425F760440001186F /* Info.plist */,
 				6870DDDC25F760400001186F /* Chatify.xcdatamodeld */,
 				6870DDEB25F7605E0001186F /* GoogleService-Info.plist */,
 			);
 			path = Chatify;
+			sourceTree = "<group>";
+		};
+		68D13D6825F799DB00F94F37 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				68D13D6925F799FC00F94F37 /* ButtonComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		68EEA26D25F7730C00E0B2AB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6870DDD725F760400001186F /* WelcomeViewController.swift */,
+				68D13D7125F7BA3300F94F37 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		68EEA26F25F773A100E0B2AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68EEA27325F7743000E0B2AB /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		68EEA27125F773B800E0B2AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68EEA27325F7743000E0B2AB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6870DDD925F760400001186F /* Main.storyboard */,
+				6870DDE125F760440001186F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		68EEA27A25F7889600E0B2AB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				68EEA27B25F7890A00E0B2AB /* Poppins-Light.ttf */,
+				68D13D6525F78AA400F94F37 /* Poppins-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +217,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6870DDE325F760440001186F /* LaunchScreen.storyboard in Resources */,
+				68EEA27C25F7890A00E0B2AB /* Poppins-Light.ttf in Resources */,
 				6870DDEC25F7605E0001186F /* GoogleService-Info.plist in Resources */,
+				68D13D6625F78AA400F94F37 /* Poppins-Regular.ttf in Resources */,
 				6870DDE025F760440001186F /* Assets.xcassets in Resources */,
 				6870DDDB25F760400001186F /* Main.storyboard in Resources */,
 			);
@@ -213,9 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D13D7225F7BA3300F94F37 /* LoginViewController.swift in Sources */,
 				6870DDDE25F760400001186F /* Chatify.xcdatamodeld in Sources */,
-				6870DDD825F760400001186F /* ViewController.swift in Sources */,
+				6870DDD825F760400001186F /* WelcomeViewController.swift in Sources */,
 				6870DDD425F760400001186F /* AppDelegate.swift in Sources */,
+				68D13D6A25F799FC00F94F37 /* ButtonComponent.swift in Sources */,
 				6870DDD625F760400001186F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
